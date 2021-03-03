@@ -1,9 +1,10 @@
 <h1 style="text-align:center;">Belanja Online</h1>
 <form method="POST" action="form_belanja.php">
+<fieldset style="width: 300px; margin: 50px 500px; background-color: rgba(201, 76, 76, 0.3);">
 <label>Customer : </label>
-<input type="text" name="nama" /><br/>
+<input type="text" name="nama" style="width: 150px; height: 20px; margin-left: 40px;"/><br/>
 <label>Produk Pilihan : </label>
-<select name="produk">
+<select name="produk" style="width: 150px; height: 20px; margin: 10px 7px;">
     <option value="">--Pilihan Produk--</option>
     <option value="TV">TV = Rp1250000</option>
     <option value="Kulkas">Kulkas = Rp1800000</option>
@@ -11,8 +12,9 @@
     <option value="AC">AC = Rp3100000</option>
 </select><br/>
 <label>Jumlah Beli : </label>
-<input type="number" name="jumlah"/><br/>
-<input type="submit" name="proses" id="Simpan"/><br/>
+<input type="number" name="jumlah" style="width: 150px; height: 20px; margin: 1px 26px;"/><br/>
+<input type="submit" name="proses" id="Simpan" value="Simpan"/><br/>
+</fieldset>
 </form>
 <hr style="border:1px solid black">
 
